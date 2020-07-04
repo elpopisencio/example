@@ -1,0 +1,11 @@
+td {
+  height: 40px;
+  vertical-align: middle !important;
+}
+.third-small > tr td:last-child {
+  width: 1%;
+  white-space: nowrap;
+}
+.is-finishing {
+  background-color: hsla(48, 100%, 67%, 0.432);
+}

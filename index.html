@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css"
+    />
+    <title>Document</title>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <br />
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <p class="subtitle has-text-centered">Turno actual</p>
+
+          <div class="box">
+            <article class="columns is-vcentered">
+              <div class="column is-narrow is-size-1">
+                <pre id="time">--:--</pre>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <p class="title">Monzani Guillermo Claudio</p>
+                  <p class="subtitle">Juntos por el Cambio - UCR</p>
+                </div>
+              </div>
+            </article>
+
+            <button id="start" class="button is-success is-fullwidth">
+              Iniciar turno
+            </button>
+          </div>
+        </div>
+        <div class="column">
+          <p class="subtitle has-text-centered">Lista de turnos</p>
+
+          <table
+            class="table is-bordered is-striped is-narrow is-fullwidth has-text-justified third-small"
+          >
+            <thead>
+              <tr>
+                <th>Concejal</th>
+                <th>Partido</th>
+                <th>Acciones</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="is-selected">
+                <td>Monzani Guillermo Claudio</td>
+                <td>Juntos por el Cambio - UCR</td>
+                <td>
+                  <button class="button is-small is-success">
+                    <span class="icon is-small">
+                      <i class="fas fa-check"></i>
+                    </span>
+                  </button>
+
+                  <button class="button is-small is-danger">
+                    <span class="icon is-small">
+                      <i class="fas fa-times"></i>
+                    </span>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>Gonzalez Jorgelina Gladys</td>
+                <td>Juntos por el Cambio - UCR</td>
+                <td>
+                  <button class="button is-small is-success">
+                    <span class="icon is-small">
+                      <i class="fas fa-check"></i>
+                    </span>
+                  </button>
+
+                  <button class="button is-small is-danger">
+                    <span class="icon is-small">
+                      <i class="fas fa-times"></i>
+                    </span>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>Mosna Isabel</td>
+                <td>MPN</td>
+                <td>
+                  <button class="button is-small is-success">
+                    <span class="icon is-small">
+                      <i class="fas fa-check"></i>
+                    </span>
+                  </button>
+
+                  <button class="button is-small is-danger">
+                    <span class="icon is-small">
+                      <i class="fas fa-times"></i>
+                    </span>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>Ousset Juan Luis</td>
+                <td>MPN</td>
+                <td>
+                  <button class="button is-small is-success">
+                    <span class="icon is-small">
+                      <i class="fas fa-check"></i>
+                    </span>
+                  </button>
+
+                  <button class="button is-small is-danger">
+                    <span class="icon is-small">
+                      <i class="fas fa-times"></i>
+                    </span>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>Hormazabal Natalia</td>
+                <td>Frente de Izquierda y de los Trab.</td>
+                <td>
+                  <button class="button is-small is-success">
+                    <span class="icon is-small">
+                      <i class="fas fa-check"></i>
+                    </span>
+                  </button>
+
+                  <button class="button is-small is-danger">
+                    <span class="icon is-small">
+                      <i class="fas fa-times"></i>
+                    </span>
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <a href="concejal.html">concejal</a>
+      <a href="pantalla.html">pantalla</a>
+      <a href="#" id="one-minute">un minuto</a>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
