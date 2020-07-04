@@ -14,6 +14,13 @@ const handleInterval = () => {
     let minutes = Math.floor((sec_num) / 60);
     let seconds = sec_num - (minutes * 60);
     time.textContent = formatNumber(minutes) + ':' + formatNumber(seconds)
+    if (sec_num === 0) {
+        clearInterval(interval)
+        document.getElementById('ending-sound').play();
+    }
+    if (sec_num === 30) {
+        document.getElementById('warning-sound').play();
+    }
     if (minutes < 1) {
         time.className = "is-finishing has-text-danger"
     } else {
