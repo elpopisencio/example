@@ -27,7 +27,7 @@ const formatNumber = (number) => {
 }
 
 document.getElementById("one-minute").addEventListener("click", () => {
-    sec_num = 61
+    sec_num = 60
 })
 const start = document.getElementById("start")
 if (start) {
